@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap");
+.score-board {
+  font-family: "Tektur", cursive;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  /* padding-top: 5rem; */
+  padding-bottom: 5rem;
+  color: white;
+  justify-content: center;
+}
+
+.cards-container {
+  display: flex;
+  gap: 1.5rem;
+}
+
+span {
+  font-family: "Tektur", cursive;
+  font-size: 3.5rem;
+  color: rgb(227, 54, 54);
+}
+
+span#sec {
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 0rem 1rem 0rem;
+}
