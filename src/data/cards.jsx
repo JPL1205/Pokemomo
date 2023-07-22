@@ -17,105 +17,85 @@ const cardsData = [
     name: "ditto",
     image:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/132.png",
-    hasClicked: false,
-    isActive: false,
     id: 0,
   },
   {
     name: "snorlax",
     image:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/143.png",
-    hasClicked: false,
-    isActive: false,
     id: 1,
   },
   {
     name: "pikachu",
     image:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/25.png",
-    hasClicked: false,
-    isActive: false,
     id: 2,
   },
   {
     name: "charizard",
     image:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/6.png",
-    hasClicked: false,
-    isActive: false,
     id: 3,
   },
   {
     name: "lucario",
     image:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/448.png",
-    hasClicked: false,
-    isActive: false,
     id: 4,
   },
   {
     name: "mewtwo",
     image:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/150.png",
-    hasClicked: false,
-    isActive: false,
     id: 5,
   },
   {
     name: "garchomp",
     image:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/445.png",
-    hasClicked: false,
-    isActive: false,
     id: 6,
   },
   {
     name: "blastoise",
     image:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/9.png",
-    hasClicked: false,
-    isActive: false,
     id: 7,
   },
   {
     name: "arcanine",
     image:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/59.png",
-    hasClicked: false,
-    isActive: false,
     id: 8,
   },
   {
     name: "gengar",
     image:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/94.png",
-    hasClicked: false,
-    isActive: false,
     id: 9,
   },
   {
     name: "lapras",
     image:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/131.png",
-    hasClicked: false,
-    isActive: false,
     id: 10,
   },
   {
     name: "dragonite",
     image:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/149.png",
-    hasClicked: false,
-    isActive: false,
     id: 11,
   },
   {
     name: "entei",
     image:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/244.png",
-    hasClicked: false,
-    isActive: false,
     id: 12,
+  },
+  {
+    name: "Groudon",
+    image:
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/383.png",
+    id: 13,
   },
 ];
 

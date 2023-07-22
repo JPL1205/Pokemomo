@@ -2,7 +2,9 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import Card from "./components/card";
 import { getRandomItemsFromArray } from "./function/getRandomItem";
+import Info from "./components/info";
 import cardsData from "./data/cards";
+import info from "./assets/light-bulb.png";
 
 const copy = cardsData;
 
@@ -15,6 +17,10 @@ function App() {
   const [data, setData] = useState(copy);
   const [level, setLevel] = useState(4);
   const [currData, setCurrData] = useState([]);
+  const [stage, setStage] = useState(1);
+  const [show, setShow] = useState(false);
+
+  const finalStage = 6;
 
   // useEffect(() => {
   //   async function fetchData() {
@@ -54,6 +60,7 @@ function App() {
     const randomData = getRandomItemsFromArray(data, level);
     setCurrData(randomData);
     setIsActive(true);
+    setStage(1);
   }
 
   function gameOver() {
@@ -75,10 +82,27 @@ function App() {
   if (levelScore === level) {
     setLevel(level + 2);
     setLevelScore(0);
+    setStage(stage + 1);
+  }
+
+  stage === finalStage && alert("ALL CLEAR");
+
+  function showInfo() {
+    show ? setShow(false) : setShow(true);
+  }
+
+  function closedInfo() {
+    setShow(false);
   }
 
   return (
     <>
+      <nav>
+        <button id="Info" onClick={showInfo}>
+          <img src={info} alt="" id="light" />
+        </button>
+      </nav>
+      {show && <Info closedInfo={closedInfo} />}
       <header>
         <span>Poke</span>
         <span id="sec">Memo</span>
@@ -89,8 +113,12 @@ function App() {
         </h1>
         <hr />
         <h1>
+          <u>BEST SCORE: {bestScore}</u>
+        </h1>
+        <hr />
+        <h1>
           <u>
-            BEST SCORE: {bestScore} / {copy.length}
+            LEVEL: {stage} / {6}
           </u>
         </h1>
       </div>
