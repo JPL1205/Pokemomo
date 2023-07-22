@@ -97,6 +97,36 @@ const cardsData = [
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/383.png",
     id: 13,
   },
+  {
+    name: "Lugia",
+    image:
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/249.png",
+    id: 14,
+  },
+  {
+    name: "Salamence",
+    image:
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/373.png",
+    id: 15,
+  },
+  {
+    name: "Darkrai",
+    image:
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/491.png",
+    id: 16,
+  },
+  {
+    name: "Arceus",
+    image:
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/493.png",
+    id: 17,
+  },
+  {
+    name: "Zoroark",
+    image:
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/571.png",
+    id: 18,
+  },
 ];
 
 // export async function populateData() {
